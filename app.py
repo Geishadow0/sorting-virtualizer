@@ -83,29 +83,4 @@ if __name__ == '__main__':
     App(window,'Bubble sort')
     
     window.mainloop()
-    # tells Python to run the Tkinter event loop.
-    # This method listens for events, such as button clicks or keypresses, 
-    # and blocks any code that comes after it from running 
-    '''
-    The mainloop() function in Tkinter is a method that starts an event loop, 
-    which listens for events and responds to them accordingly.
-    It is a crucial function in GUI programming with Tkinter
-    since it is responsible for keeping the GUI responsive
-    and handling user input.
-
-    When you create a GUI application using Tkinter, you define 
-    various widgets like buttons, labels, and entry boxes, and 
-    then bind them to specific events like button clicks or key
-    presses. Once you have set up your application, you need 
-    to start the mainloop() function to start the event loop.
-
-    The mainloop() function runs indefinitely until the user 
-    closes the application window or calls the quit() method.
-    It continuously listens for events such as mouse clicks,
-    key presses, and other user input events, and dispatches
-    them to the appropriate widgets for processing.
-
-    In summary, the purpose of the mainloop() function in 
-    Tkinter is to start the event loop that listens for
-    user input events and keeps the GUI responsive.
-    '''
+  
